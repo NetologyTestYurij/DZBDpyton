@@ -1,4 +1,3 @@
-
 --Название и продолжительность самого длительного трека.
 select name, duration
 from Songs
@@ -64,9 +63,6 @@ left join bandsalbom ba on ba.band_id = a.id
 left join bands b on ba.band_id = b.id 
 where b.name like'%MOT%'
 order by name;
-
-
-
 
 
 
